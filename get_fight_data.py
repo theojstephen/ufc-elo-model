@@ -2,16 +2,6 @@
 Elo system assumptions:
 fighter performance is normally distributed RV
 performance is inferred from wins draws losses and no contests
-
-
-
-for fight night in http://ufcstats.com/statistics/events/completed?page=all
-    for bout in fight night (bottom up)
-        if fighter1 id is not in fighter list
-            add fighter
-        if fighter2 id is not in fighter list
-            add fighter
-        add fighters and result to CSV (w/l/d)
 '''
 
 import csv
