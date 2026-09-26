@@ -4,7 +4,7 @@ import csv
 
 
 # Before this point we have only used pythons built-in csv module to create and read
-# CSV files. But now we need to use Pandas as we will be  calculating the Elo of UFC
+# CSV files. But now we need to use Pandas as we will be calculating the Elo of UFC
 # fighters and making rapid modifications to a file.
 
 # Make a dictionary with each fighter, there unique id and the number it corresponds to in a df
